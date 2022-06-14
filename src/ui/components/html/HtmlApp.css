@@ -1,0 +1,21 @@
+#htmlRoot {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("/static/grass2.jpeg");
+}
+
+.player {
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+.enemy {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}

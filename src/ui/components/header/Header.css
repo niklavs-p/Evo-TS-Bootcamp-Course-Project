@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 10vh;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+    user-select: none;
+}
+.uis,
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    padding: 0 3vh;
+}
+.uis {
+    padding-right: 1.5vh;
+}
+.btn {
+    padding: 0 1.5vh;
+    cursor: pointer;
+    color: #dddddd;
+}
+.dataUI-btn.active {
+    color: rgb(221, 91, 22);
+}
+.babylon-btn.active {
+    color: rgb(187, 70, 75);
+}
+.pixi-btn.active {
+    color: rgb(234, 29, 99);
+}
+.html-btn.active {
+    color: rgb(233, 99, 40);
+}

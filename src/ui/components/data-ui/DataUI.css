@@ -1,0 +1,52 @@
+#mobxRoot {
+    width: 100%;
+    height: 100%;
+    padding-top: 15vh;
+    background-color: rgb(39, 40, 34);
+}
+
+.json-tree {
+    display: flex;
+}
+
+.react-json-view {
+    font-size: 14px;
+}
+
+.toggle-auto-fight {
+    position: absolute;
+    top: 33px;
+    right: 3vh;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.toggle-auto-fight:hover {
+    color: #ffc107;
+}
+
+.toggle-auto-fight-text {
+    margin-right: 3vh;
+}
+
+.toggle-auto-fight-icon {
+    width: 40px;
+    height: 41px;
+    color: white;
+}
+
+.toggle-auto-fight.active .toggle-auto-fight-icon {
+    color: #16a765;
+    animation: rotating 2s linear infinite;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

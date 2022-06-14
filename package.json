@@ -1,0 +1,31 @@
+{
+    "name": "course-project",
+    "version": "1.0.0",
+    "description": "",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "node --max-old-space-size=8192 ./node_modules/.bin/parcel build --no-source-maps --no-cache --dist-dir build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babylonjs/core": "^5.6.1",
+        "@babylonjs/inspector": "^5.6.1",
+        "mobx": "^6.5.0",
+        "mobx-react-lite": "^3.3.0",
+        "pixi.js": "^6.4.2",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-json-view": "^1.21.3"
+    },
+    "devDependencies": {
+        "@types/pixi.js": "^5.0.0",
+        "@types/react": "^18.0.9",
+        "@types/react-dom": "^18.0.4",
+        "parcel": "^2.5.0",
+        "parcel-plugin-static-files-copy": "^2.6.0",
+        "querystring-es3": "^0.2.1"
+    }
+}
